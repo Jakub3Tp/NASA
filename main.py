@@ -10,6 +10,6 @@ if __name__ == '__main__':
     data = response.json()
 
     print("Informacje o zdjęciu kosmicznym:")
-    print(f"Tytuł: {data['title']}, Data: {data['date']}")
-    print(f"Opis: {data['explanation']}")
+    print(f"Tytuł zdjęcia: {data['title']}, Data: {data['date']}")
+    print(f"Opis zdjącia: {data['explanation']}")
     print(f"URL zdjęcia: {data['url']}")
