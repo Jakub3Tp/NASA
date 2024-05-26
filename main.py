@@ -11,5 +11,5 @@ if __name__ == '__main__':
 
     print("Informacje o zdjęciu kosmicznym:")
     print(f"Tytuł zdjęcia: {data['title']}, Data: {data['date']}")
-    print(f"Opis zdjącia: {data['explanation']}")
+    print(f"Opis zdjęcia: {data['explanation']}")
     print(f"URL zdjęcia: {data['url']}")
