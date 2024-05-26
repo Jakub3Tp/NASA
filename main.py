@@ -1,3 +1,4 @@
+#Program do wyświetlania astronomicznego zdjęcia dnia, poprzez klucz API
 import requests
 
 if __name__ == '__main__':
